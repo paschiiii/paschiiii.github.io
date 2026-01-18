@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>paschiiii • Roblox Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background effects -->
+  <div class="bg">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="dot"></span>
+      <span>paschiiii</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#proof">Proof</a>
+      <a href="#contact" class="pill">Hire me</a>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top" class="wrap">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="badge">
+          <span class="spark"></span>
+          Roblox Developer • Scripter & UI Designer
+        </div>
+
+        <h1 class="headline">
+          I build <span class="accent">clean systems</span> and
+          <span class="accent">premium UI</span> that make Roblox games feel professional.
+        </h1>
+
+        <p class="sub">
+          Fast delivery. Optimized code. UI that looks modern and sells the experience.
+          If you want your game to feel “real,” I can build it.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Hire paschiiii</a>
+          <a class="btn ghost" href="#work">See projects</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">⚡</div>
+            <div class="stat-text">
+              <strong>Fast</strong>
+              <span>Quick iterations</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">🧠</div>
+            <div class="stat-text">
+              <strong>Smart</strong>
+              <span>Optimized systems</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">🎨</div>
+            <div class="stat-text">
+              <strong>Clean UI</strong>
+              <span>Modern visuals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="glass card big">
+          <div class="card-top">
+            <div class="mini-pill">Featured</div>
+            <div class="mini-pill outline">Available</div>
+          </div>
+
+          <h3>What you get</h3>
+          <ul class="checklist">
+            <li><span>✓</span> Smooth UI + animations</li>
+            <li><span>✓</span> Systems (shops, RNG, tycoons, data)</li>
+            <li><span>✓</span> Secure client/server architecture</li>
+            <li><span>✓</span> Clean code + easy to expand</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <div class="callout">
+            <div class="callout-icon">💬</div>
+            <div>
+              <strong>Want a quote?</strong>
+              <p class="muted">Send your idea + budget and I’ll respond fast.</p>
+            </div>
+          </div>
+
+          <a class="btn primary wide" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="section-head">
+        <h2>Projects that feel premium</h2>
+        <p class="muted">Replace the placeholders with your screenshots/videos. This section sells you.</p>
+      </div>
+
+      <div class="cards">
+        <article class="glass card project">
+          <div class="thumb">
+            <span>Project Image / GIF</span>
+          </div>
+          <div class="project-body">
+            <h3>RNG / Crate System</h3>
+            <p class="muted">
+              Weighted luck, rarity tiers, pity system, inventory UI, and DataStore saving.
+            </p>
+            <div class="tags">
+              <span>Lua</span><span>DataStore</span><span>UI</span><span>RNG</span>
+            </div>
+            <div class="links">
+              <a class="link" href="#">Game</a>
+              <a class="link" href="#">Video</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="glass card project">
+          <div class="thumb">
+            <span>Project Image / GIF</span>
+          </div>
+          <div class="project-body">
+            <h3>Speed Farming + Upgrades</h3>
+            <p class="muted">
+              Progression loop, upgrade shop, smooth UI, and clean server-side logic.
+            </p>
+            <div class="tags">
+              <span>Gameplay</span><span>Shop</span><span>UI</span>
+            </div>
+            <div class="links">
+              <a class="link" href="#">Game</a>
+              <a class="link" href="#">Video</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="glass card project">
+          <div class="thumb">
+            <video autoplay muted loop playsinline>
+                <source src="assets/npc.mp4" type="video/mp4">
+                Video not found / not supported.
+            </video>
+          </div>
+          <div class="project-body">
+            <h3>NPC Dialogue System</h3>
+            <p class="muted">
+              Modular dialogue system with branching choices, smooth UI transitions, and full client/server separation.
+Supports multiple NPCs, reusable dialogue trees, and easy expansion for quests, shops, or story events.
+            </p>
+            <div class="tags">
+              <span>Lua</span><span>UI</span><span>Dialogue</span><span>Systems</span>
+            </div>
+            <div class="links">
+              <a class="link" href="#">Showcase</a>
+              <a class="link" href="#">Video</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p class="muted">Simple menu for clients: they instantly know what to hire you for.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="glass card service">
+          <div class="service-icon">🧩</div>
+          <h3>Scripting</h3>
+          <p class="muted">Shops, RNG, tycoons, combat systems, progression, currencies, leaderboards.</p>
+        </article>
+
+        <article class="glass card service">
+          <div class="service-icon">🖥️</div>
+          <h3>UI Design</h3>
+          <p class="muted">Modern HUD, menus, inventory, shop UI, clean layout + consistent style.</p>
+        </article>
+
+        <article class="glass card service">
+          <div class="service-icon">🔒</div>
+          <h3>Optimization</h3>
+          <p class="muted">Performance + security: good RemoteEvents, server-authoritative logic.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section id="proof" class="section">
+      <div class="section-head">
+        <h2>Proof clients care about</h2>
+        <p class="muted">Add real results when you can (visits, retention, sales). Even small wins help.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="glass card proof">
+          <h3>Reliable delivery</h3>
+          <p class="muted">Clear communication, updates, and clean handoff with organized code.</p>
+        </article>
+        <article class="glass card proof">
+          <h3>Scalable systems</h3>
+          <p class="muted">Built so you can expand later without rewriting everything.</p>
+        </article>
+        <article class="glass card proof">
+          <h3>UI that sells</h3>
+          <p class="muted">Polished UI makes your game feel high quality instantly.</p>
+        </article>
+      </div>
+
+      <div class="testimonial glass card">
+        <div class="quote">“</div>
+        <div>
+          <p>
+            <strong>Testimonial</strong> — Fast delivery, super clean UI, and the scripts were organized and easy to expand.
+          </p>
+          <p class="muted">
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Hire me</h2>
+        <p class="muted">Make it easy: one place with all contact + what to send you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="glass card">
+          <h3>Contact</h3>
+          <div class="contact-line"><span>Discord</span><strong>paschiiii</strong></div>
+          <div class="contact-line"><span>Roblox</span><strong>paschiiii1801</strong></div>
+          <div class="contact-line"><span>Email</span><strong>weningpasccal042@gmail.com</strong></div>
+
+          <div class="divider"></div>
+          <p class="muted small">
+            Send: <strong>game idea</strong>, <strong>deadline</strong>, <strong>budget</strong>, and
+            <strong>references</strong> (screenshots/videos).
+          </p>
+        </div>
+
+        <div class="glass card">
+          <h3>Quick pitch</h3>
+          <p class="muted">
+            I specialize in <strong>Roblox scripting</strong> and <strong>modern UI</strong>.
+            If your game needs professional systems and a clean look, I can build it fast.
+          </p>
+
+          <div class="divider"></div>
+
+          <a class="btn primary wide" href="https://discord.com/users/696440508477866074" target="_blank" rel="noopener">
+            Message me on Discord
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> paschiiii • Roblox Developer</p>
+    </footer>
+  </main>
+
+  <script>
+    // Theme toggle (saved)
+    const body = document.body;
+    const toggle = document.getElementById("themeToggle");
+    const icon = document.getElementById("themeIcon");
+
+    const saved = localStorage.getItem("theme");
+    if (saved) body.dataset.theme = saved;
+
+    function refreshIcon() {
+      const t = body.dataset.theme || "dark";
+      icon.textContent = t === "dark" ? "🌙" : "☀️";
+    }
+
+    // Default to dark if nothing saved
+    if (!body.dataset.theme) body.dataset.theme = "dark";
+    refreshIcon();
+
+    toggle.addEventListener("click", () => {
+      body.dataset.theme = (body.dataset.theme === "dark") ? "light" : "dark";
+      localStorage.setItem("theme", body.dataset.theme);
+      refreshIcon();
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Simple reveal animation
+    const items = document.querySelectorAll(".card, .badge, .headline, .sub, .cta, .stat");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add("in");
+      });
+    }, { threshold: 0.12 });
+
+    items.forEach(i => { i.classList.add("reveal"); io.observe(i); });
+  </script>
+</body>
+</html>
